@@ -1,0 +1,127 @@
+body{
+    background-image: url("/images/newsletter-bg.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#login{
+margin-top: 10%;
+}
+
+.footer{
+    clear: both;
+}
+
+.clear-input{
+    background-color: rgba(0,0,0,0.1) !important;
+    color: white;
+    border:none !important;
+}
+
+.clear-input.error{
+    background-color: white !important;
+    color: red;
+    border:1px solid red !important;
+}
+p.error{
+    color: red;
+    display: none;
+}
+.table-img img{
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-o-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+}
+
+.table-row td{
+	font-size: 1em;
+	
+    line-height: 1.42857143;
+    vertical-align:middle !important; 
+    border-top: 1px solid #ddd;
+}
+h1.header{
+        font-size: 50px;
+        margin-top: 50px;
+}
+td.table-text h6{
+	font-size: 1.2em;
+	color:#000;
+}
+td.table-text p{
+	font-size:0.9em;
+	line-height: 1.5em;
+	color:#999;
+}
+.overlay-veil{
+        position:fixed;
+        left:0;
+        top:0;
+        background:#424b52;
+        width:100%;
+        height:100%;
+        z-index:9999;
+        display: none;
+    }
+    .overlay-component{
+        position:absolute;
+        left:50%;
+        top:50%;
+        background:#fff;
+        color:#fff;
+        border-radius:10px;
+        padding:15px;
+        z-index:9999;
+        transform:translate(-50%,-50%);
+        display: none;
+    }
+    .overlay-component .closeOverlay b{
+        color:#bd2424;
+        cursor:pointer;
+    }
+    .overlay-component h3{
+        color:#4a4a4a;
+        padding-bottom:10px;
+    }
+    .overlay-component .ov-content{
+        color:#868686;
+        padding-bottom:10px;
+    }
+    p.check span{
+        color:green;
+        font-size: 500%;
+    }
+    .overlay-table td{
+        padding: 15px 15px 15px 0px;
+    }
+    .overlay-image{
+        border-radius: 150px;
+    }
+    .result-body{
+        background: white;
+        border-radius: 10px;
+    }
+    .link-item,.header-link{
+        cursor: pointer;
+        color: #337ab7;
+    }
+    .link-item:hover{
+        text-decoration: none !important;
+        color: #337ab7;
+    }
+    .header-link:hover{
+        text-decoration: none !important;
+        color: #337ab7;
+    }
+    .hidden{
+        display: none;
+    }
+
+    .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 15px !important;
+    font-size: 0.85em;
+    color: #999;
+    border-top: none !important;
+}
